@@ -5,10 +5,13 @@ N='\033[0m'
 C='\033[0;36m'
 
 
-function banner() {
+
+
+print_banner() {
     echo "******************************************"
-    echo "*               VigilProxy               *"
+    echo "*                VigilProxy              *"
     echo "*           Proxy Testing Tool           *"
+    echo "*                  v1.1.1                *"
     echo "*      ----------------------------      *"
     echo "*                        by @ImKKingshuk *"
     echo "* Github- https://github.com/ImKKingshuk *"
@@ -102,7 +105,7 @@ function fetch_and_test_proxies() {
 }
 
 
-banner
+print_banner
 
 
 get_test_url
